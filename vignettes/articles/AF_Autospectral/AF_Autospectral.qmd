@@ -1,0 +1,55 @@
+---
+Title: Autospectral on autofluorescence
+Format: html
+---
+
+
+```{r}
+# Install Bioconductor packages
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install(c("flowWorkspace", "FlowSOM"))
+
+# You'll need pak or remotes to install from GitHub.
+install.packages("pak")
+pak::pak("DrCytometer/AutoSpectral")
+```
+
+
+```{r}
+#load autospectral
+
+library(AutoSpectral)
+```
+
+```{r}
+#Get autospectral parameters and set control directory
+
+asp <- get.autospectral.param(cytometer = "id7000", figures = TRUE)
+control.dir <- "D:/R/Autofluorescence/AF_Data"
+```
+
+
+
+```{r}
+#get AF spectra
+
+mock_01 <- "A01 mock Raw-01.fcs"
+aphid_01 <- "A02 PS01 Raw-01.fcs"
+mock_02 <- "A01 mock Raw-02.fcs"
+aphid_02 <- "A02 PS01 Raw-02.fcs"
+
+mock_01.af <- get.af.spectra( file.path( control.dir, mock_01),
+                           asp, title = "Mock_01" )
+aphid_01.af <- get.af.spectra( file.path( control.dir, aphid_01), 
+                            asp, title = "Aphid_01" )
+mock_02.af <- get.af.spectra( file.path( control.dir, mock_02), 
+                             asp, title = "Mock_02" )
+aphid_02.af <- get.af.spectra( file.path( control.dir, aphid_02), 
+                             asp, title = "Aphid_02" )                            
+                    
+```
+
+
+
+

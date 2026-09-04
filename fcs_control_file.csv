@@ -1,0 +1,7 @@
+"filename","fluorophore","marker","channel","control.type","universal.negative","large.gate","gate.name","gate.define","is.viability"
+"A03 Mock + PI Raw.fcs","Propidium Iodide","","No match","","",FALSE,"viabilityGate_1",TRUE,TRUE
+"A04 PS01 + PI Raw.fcs","Propidium Iodide","","No match","","",FALSE,"viabilityGate_1",TRUE,TRUE
+"A01 mock Raw-01.fcs","No match","","","","",FALSE,"smallGate_2",TRUE,FALSE
+"A01 mock Raw-02.fcs","No match","","","","",FALSE,"smallGate_2",TRUE,FALSE
+"A02 PS01 Raw-01.fcs","No match","","","","",FALSE,"smallGate_2",TRUE,FALSE
+"A02 PS01 Raw-02.fcs","No match","","","","",FALSE,"smallGate_2",TRUE,FALSE
