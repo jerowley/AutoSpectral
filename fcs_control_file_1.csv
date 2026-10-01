@@ -1,0 +1,29 @@
+filename,fluorophore,marker,channel,control.type,universal.negative,large.gate,gate.name,gate.define,is.viability
+BV421 (Beads).fcs,BV421,CCR7,V1-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor V450 (Beads).fcs,cFluor V450,CD45RA,V3-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+BV510 (Beads).fcs,BV510,IgM,V7-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor V547 (Beads).fcs,V547,CD20,V8-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+BV570 (Beads).fcs,BV570,CD3,V8-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+BV650 (Beads).fcs,BV650,CD28,V11-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+BV711 (Beads).fcs,BV711,CD38,V13-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+BV750 (Beads).fcs,BV750,CD56,V14-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+BV785 (Beads).fcs,BV785,PD-1,V15-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor B515 (Beads).fcs,cFluor B515,CD141,B1-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor B532 (Beads).fcs,cFluor B532,CD8,B2-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor B548 (Beads).fcs,cFluor B548,CD141,B3-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor B690 (Beads).fcs,cFluor B690,HLA-DR,B9-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor BYG575 (Beads).fcs,cFluor BYG575,CD25,YG1-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor YG584 (Beads).fcs,cFluor YG584,CD45RA,YG1-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor BYG610 (Beads).fcs,cFluor BYG610,CD16,YG3-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor BYG667 (Beads).fcs,cFluor BYG667,IgD,YG5-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor BYG710 (Beads).fcs,cFluor BYG710,TCRgd,YG7-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor BYG781 (Beads).fcs,cFluor BYG781,CD11c,YG9-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor R659 (Beads).fcs,cFluor R659,CD127,R1-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor R668 (Beads).fcs,cFluor R668,CD1c,R2-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor R685 (Beads).fcs,cFluor R685,CD19,R3-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor R720 (Beads).fcs,cFluor R720,CD123,R4-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor R780 (Beads).fcs,cFluor R780,CD54,R7-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+cFluor R840 (Beads).fcs,cFluor R840,CD27,R8-A,beads,Negative_Beads (Beads).fcs,FALSE,smallGate_1,TRUE,FALSE
+Negative_Beads (Beads).fcs,Negative,Unstained,,beads,,FALSE,smallGate_1,TRUE,FALSE
+Unstained (Cells).fcs,AF,Unstained,,cells,,FALSE,smallGate_2,TRUE,FALSE
+ViaDye Red (Cells).fcs,ViaDye Red,Viability,R7-A,cells,Unstained (Cells).fcs,FALSE,smallGate_2,TRUE,FALSE

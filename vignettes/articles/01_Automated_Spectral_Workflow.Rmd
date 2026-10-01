@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 If you need to install AutoSpectral, run this bit first:
 ```{r install, eval=FALSE}
 # Install Bioconductor packages
-if (!requireNamespace("BiocManager", quietly = TRUE))
+if (!requireNamespace("BiocManager", quietly = TRUE, force=TRUE))
   install.packages("BiocManager")
 BiocManager::install(c("flowWorkspace", "FlowSOM"))
 
